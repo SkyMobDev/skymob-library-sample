@@ -15,6 +15,14 @@ and the library's name in `src/main.ts` and `src/i18n/`.
 
 ## Setup
 
+Node 22.12 or newer, with pnpm through corepack: `package.json` pins the pnpm version, so
+`corepack enable` once is all it takes.
+
+```
+corepack enable
+pnpm install
+```
+
 - **`@skymobdev/sdk`, `@skymobdev/standard-catalog-types` and `@skymobdev/cad-mock`** come from
   https://npm.skymob.app, which `.npmrc` maps the `@skymobdev` scope to. No token or account is
   needed.
@@ -22,7 +30,6 @@ and the library's name in `src/main.ts` and `src/i18n/`.
   `@skymobdev/*` packages are exempt, so a new SDK release installs right away.
 
 ```
-pnpm install
 pnpm test          # vitest
 pnpm run typecheck
 pnpm run build     # dist/library-sample.js and dist/loadable.json
