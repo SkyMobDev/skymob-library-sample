@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Desk">
+  <title>Desk</title>
+  <defs>
+    <linearGradient id="desk-top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="desk-side" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F3F4F6"/>
+      <stop offset="100%" stop-color="#E5E7EB"/>
+    </linearGradient>
+  </defs>
+  <path d="M10 38 L26 26 L118 26 L102 38 Z" fill="#A5B4FC" stroke="#4F46E5" stroke-width="1.2" stroke-linejoin="round"/>
+  <rect x="10" y="38" width="92" height="8" fill="url(#desk-top)" stroke="#4F46E5" stroke-width="1.2"/>
+  <path d="M102 38 L118 26 L118 34 L102 46 Z" fill="#6366F1" stroke="#4F46E5" stroke-width="1.2" stroke-linejoin="round"/>
+  <rect x="31" y="46" width="62" height="22" fill="#D1D5DB" stroke="#6B7280" stroke-width="1"/>
+  <path d="M14 46 L22 46 L22 104 L14 104 Z" fill="url(#desk-side)" stroke="#6B7280" stroke-width="1.2"/>
+  <path d="M22 46 L32 39 L32 96 L22 104 Z" fill="#E5E7EB" stroke="#6B7280" stroke-width="1"/>
+  <path d="M92 46 L100 46 L100 104 L92 104 Z" fill="url(#desk-side)" stroke="#6B7280" stroke-width="1.2"/>
+  <path d="M100 46 L110 39 L110 96 L100 104 Z" fill="#E5E7EB" stroke="#6B7280" stroke-width="1"/>
+</svg>

@@ -1,0 +1,29 @@
+{
+  "name": "skymob-library-sample",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "skymob-lib dev",
+    "build": "skymob-lib build",
+    "check": "skymob-lib check",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "skills": "skymob-lib skills"
+  },
+  "skymob": {
+    "id": "library-sample",
+    "dependencies": [
+      "standard-catalog"
+    ]
+  },
+  "devDependencies": {
+    "@skymobdev/cad-mock": "^0.1.73",
+    "@skymobdev/sdk": "^0.2.0",
+    "@skymobdev/standard-catalog-types": "^0.1.0",
+    "@types/three": "^0.187.0",
+    "three": "^0.187.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.7"
+  }
+}

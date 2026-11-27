@@ -1,0 +1,6 @@
+# Supply-chain cooldown: a package version installs once it is 5 days old.
+# Our own @skymobdev/* packages are exempt, so their fresh releases install
+# right away.
+minimumReleaseAge: 7200
+minimumReleaseAgeExclude:
+  - "@skymobdev/*"

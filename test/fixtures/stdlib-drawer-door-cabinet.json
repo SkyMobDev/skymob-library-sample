@@ -1,0 +1,2734 @@
+{
+ "defaults": {
+  "pieces": [
+   {
+    "id": "testbed-1-bottom-node",
+    "role": "piece.bottom-panel",
+    "piece": {
+     "uid": "testbed-1-bottom",
+     "width": 568,
+     "height": 550,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 8,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-left-node",
+    "role": "piece.left-side",
+    "piece": {
+     "uid": "testbed-1-left",
+     "width": 600,
+     "height": 550,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": -292,
+      "y": 300,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      -0.707,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-right-node",
+    "role": "piece.right-side",
+    "piece": {
+     "uid": "testbed-1-right",
+     "width": 600,
+     "height": 550,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 292,
+      "y": 300,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      0.707,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-back-top-node",
+    "role": "piece.back-stretcher-top",
+    "piece": {
+     "uid": "testbed-1-back-top",
+     "width": 568,
+     "height": 100,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 550,
+      "z": -267
+     },
+     "rotation": [
+      0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-back-bottom-node",
+    "role": "piece.back-stretcher-bottom",
+    "piece": {
+     "uid": "testbed-1-back-bottom",
+     "width": 568,
+     "height": 100,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 66,
+      "z": -267
+     },
+     "rotation": [
+      0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-divider-divider-0-node",
+    "role": "piece.divider",
+    "piece": {
+     "uid": "testbed-1-divider-divider-0",
+     "width": 568,
+     "height": 534,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 166,
+      "z": 8
+     },
+     "rotation": [
+      0,
+      0,
+      1,
+      0
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-drawers-drawer-0-front-node",
+    "role": "piece.drawer-front",
+    "piece": {
+     "uid": "testbed-1-drawers-drawer-0-front",
+     "width": 596,
+     "height": 162,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 4,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 5,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 83,
+      "z": 284
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-drawers-drawer-0-left-node",
+    "role": "piece.drawer-left-side",
+    "piece": {
+     "uid": "testbed-1-drawers-drawer-0-left",
+     "width": 514,
+     "height": 136,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": -275,
+      "y": 86,
+      "z": 19
+     },
+     "rotation": [
+      -0.5,
+      -0.5,
+      -0.5,
+      0.5
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-drawers-drawer-0-right-node",
+    "role": "piece.drawer-right-side",
+    "piece": {
+     "uid": "testbed-1-drawers-drawer-0-right",
+     "width": 514,
+     "height": 136,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 275,
+      "y": 86,
+      "z": 19
+     },
+     "rotation": [
+      -0.5,
+      0.5,
+      0.5,
+      0.5
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-drawers-drawer-0-bottom-node",
+    "role": "piece.drawer-bottom",
+    "piece": {
+     "uid": "testbed-1-drawers-drawer-0-bottom",
+     "width": 548,
+     "height": 505,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 38.5,
+      "z": 23.5
+     },
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-drawers-drawer-0-back-node",
+    "role": "piece.drawer-back",
+    "piece": {
+     "uid": "testbed-1-drawers-drawer-0-back",
+     "width": 534,
+     "height": 136,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 86,
+      "z": -230
+     },
+     "rotation": [
+      0,
+      0.707,
+      0.707,
+      0
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-door-door-left-side-node",
+    "role": "piece.door-panel-left",
+    "piece": {
+     "uid": "testbed-1-door-door-left-side",
+     "thickness": 16,
+     "grain": 0,
+     "width": 596,
+     "height": 432
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 4,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       }
+      }
+     },
+     {
+      "edge": 5,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       }
+      }
+     },
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       }
+      }
+     },
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       }
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 384,
+      "z": 285
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-1-door-topStile-top-rail-node",
+    "role": "piece.top-rail",
+    "piece": {
+     "uid": "testbed-1-door-topStile-top-rail",
+     "width": 568,
+     "height": 100,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 550,
+      "z": 267
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   }
+  ],
+  "diagnostics": [
+   "error:pivot-door.invalid_hinge"
+  ]
+ },
+ "sized": {
+  "pieces": [
+   {
+    "id": "testbed-2-bottom-node",
+    "role": "piece.bottom-panel",
+    "piece": {
+     "uid": "testbed-2-bottom",
+     "width": 568,
+     "height": 550,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 8,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-left-node",
+    "role": "piece.left-side",
+    "piece": {
+     "uid": "testbed-2-left",
+     "width": 900,
+     "height": 550,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": -292,
+      "y": 450,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      -0.707,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-right-node",
+    "role": "piece.right-side",
+    "piece": {
+     "uid": "testbed-2-right",
+     "width": 900,
+     "height": 550,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 292,
+      "y": 450,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      0.707,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-back-top-node",
+    "role": "piece.back-stretcher-top",
+    "piece": {
+     "uid": "testbed-2-back-top",
+     "width": 568,
+     "height": 100,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 850,
+      "z": -267
+     },
+     "rotation": [
+      0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-back-bottom-node",
+    "role": "piece.back-stretcher-bottom",
+    "piece": {
+     "uid": "testbed-2-back-bottom",
+     "width": 568,
+     "height": 100,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 66,
+      "z": -267
+     },
+     "rotation": [
+      0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-divider-divider-0-node",
+    "role": "piece.divider",
+    "piece": {
+     "uid": "testbed-2-divider-divider-0",
+     "width": 568,
+     "height": 534,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 166,
+      "z": 8
+     },
+     "rotation": [
+      0,
+      0,
+      1,
+      0
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-drawers-drawer-0-front-node",
+    "role": "piece.drawer-front",
+    "piece": {
+     "uid": "testbed-2-drawers-drawer-0-front",
+     "width": 596,
+     "height": 162,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 4,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 5,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 83,
+      "z": 284
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-drawers-drawer-0-left-node",
+    "role": "piece.drawer-left-side",
+    "piece": {
+     "uid": "testbed-2-drawers-drawer-0-left",
+     "width": 514,
+     "height": 136,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": -275,
+      "y": 86,
+      "z": 19
+     },
+     "rotation": [
+      -0.5,
+      -0.5,
+      -0.5,
+      0.5
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-drawers-drawer-0-right-node",
+    "role": "piece.drawer-right-side",
+    "piece": {
+     "uid": "testbed-2-drawers-drawer-0-right",
+     "width": 514,
+     "height": 136,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 275,
+      "y": 86,
+      "z": 19
+     },
+     "rotation": [
+      -0.5,
+      0.5,
+      0.5,
+      0.5
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-drawers-drawer-0-bottom-node",
+    "role": "piece.drawer-bottom",
+    "piece": {
+     "uid": "testbed-2-drawers-drawer-0-bottom",
+     "width": 548,
+     "height": 505,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 38.5,
+      "z": 23.5
+     },
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-drawers-drawer-0-back-node",
+    "role": "piece.drawer-back",
+    "piece": {
+     "uid": "testbed-2-drawers-drawer-0-back",
+     "width": 534,
+     "height": 136,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 86,
+      "z": -230
+     },
+     "rotation": [
+      0,
+      0.707,
+      0.707,
+      0
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-door-door-left-side-node",
+    "role": "piece.door-panel-left",
+    "piece": {
+     "uid": "testbed-2-door-door-left-side",
+     "thickness": 16,
+     "grain": 0,
+     "width": 596,
+     "height": 732
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 4,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       }
+      }
+     },
+     {
+      "edge": 5,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       }
+      }
+     },
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       }
+      }
+     },
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       }
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 534,
+      "z": 285
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-2-door-topStile-top-rail-node",
+    "role": "piece.top-rail",
+    "piece": {
+     "uid": "testbed-2-door-topStile-top-rail",
+     "width": 568,
+     "height": 100,
+     "thickness": 16,
+     "grain": 0
+    },
+    "material": "__MISSING__",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "__MISSING__",
+        "name": "Missing Edgeband Material",
+        "category": "edgeband",
+        "thickness": 1,
+        "appearance": {
+         "type": "missing"
+        }
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 850,
+      "z": 267
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   }
+  ],
+  "diagnostics": [
+   "error:pivot-door.invalid_hinge"
+  ]
+ },
+ "materials": {
+  "pieces": [
+   {
+    "id": "testbed-3-bottom-node",
+    "role": "piece.bottom-panel",
+    "piece": {
+     "uid": "testbed-3-bottom",
+     "width": 550,
+     "height": 550,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 12.5,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-left-node",
+    "role": "piece.left-side",
+    "piece": {
+     "uid": "testbed-3-left",
+     "width": 600,
+     "height": 550,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": -287.5,
+      "y": 300,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      -0.707,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-right-node",
+    "role": "piece.right-side",
+    "piece": {
+     "uid": "testbed-3-right",
+     "width": 600,
+     "height": 550,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 287.5,
+      "y": 300,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      0.707,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-back-top-node",
+    "role": "piece.back-stretcher-top",
+    "piece": {
+     "uid": "testbed-3-back-top",
+     "width": 550,
+     "height": 100,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 550,
+      "z": -262.5
+     },
+     "rotation": [
+      0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-back-bottom-node",
+    "role": "piece.back-stretcher-bottom",
+    "piece": {
+     "uid": "testbed-3-back-bottom",
+     "width": 550,
+     "height": 100,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 75,
+      "z": -262.5
+     },
+     "rotation": [
+      0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-divider-divider-0-node",
+    "role": "piece.divider",
+    "piece": {
+     "uid": "testbed-3-divider-divider-0",
+     "width": 550,
+     "height": 525,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 175,
+      "z": 12.5
+     },
+     "rotation": [
+      0,
+      0,
+      1,
+      0
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-drawers-drawer-0-front-node",
+    "role": "piece.drawer-front",
+    "piece": {
+     "uid": "testbed-3-drawers-drawer-0-front",
+     "width": 596,
+     "height": 171,
+     "thickness": 18,
+     "grain": 2
+    },
+    "material": "walnut-18",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 4,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 5,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 87.5,
+      "z": 285
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-drawers-drawer-0-left-node",
+    "role": "piece.drawer-left-side",
+    "piece": {
+     "uid": "testbed-3-drawers-drawer-0-left",
+     "width": 505,
+     "height": 133.5,
+     "thickness": 25,
+     "grain": 2
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": -261.5,
+      "y": 93.75,
+      "z": 23.5
+     },
+     "rotation": [
+      -0.5,
+      -0.5,
+      -0.5,
+      0.5
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-drawers-drawer-0-right-node",
+    "role": "piece.drawer-right-side",
+    "piece": {
+     "uid": "testbed-3-drawers-drawer-0-right",
+     "width": 505,
+     "height": 133.5,
+     "thickness": 25,
+     "grain": 2
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 261.5,
+      "y": 93.75,
+      "z": 23.5
+     },
+     "rotation": [
+      -0.5,
+      0.5,
+      0.5,
+      0.5
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-drawers-drawer-0-bottom-node",
+    "role": "piece.drawer-bottom",
+    "piece": {
+     "uid": "testbed-3-drawers-drawer-0-bottom",
+     "width": 512,
+     "height": 487,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 52,
+      "z": 32.5
+     },
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-drawers-drawer-0-back-node",
+    "role": "piece.drawer-back",
+    "piece": {
+     "uid": "testbed-3-drawers-drawer-0-back",
+     "width": 498,
+     "height": 133.5,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 93.75,
+      "z": -216.5
+     },
+     "rotation": [
+      0,
+      0.707,
+      0.707,
+      0
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-door-door-left-side-node",
+    "role": "piece.door-panel-left",
+    "piece": {
+     "uid": "testbed-3-door-door-left-side",
+     "thickness": 18,
+     "grain": 2,
+     "width": 587,
+     "height": 423
+    },
+    "material": "walnut-18",
+    "edges": [
+     {
+      "edge": 4,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       }
+      }
+     },
+     {
+      "edge": 5,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       }
+      }
+     },
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       }
+      }
+     },
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       }
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 4.5,
+      "y": 388.5,
+      "z": 286
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-3-door-topStile-top-rail-node",
+    "role": "piece.top-rail",
+    "piece": {
+     "uid": "testbed-3-door-topStile-top-rail",
+     "width": 550,
+     "height": 100,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 550,
+      "z": 262.5
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   }
+  ],
+  "diagnostics": [
+   "error:pivot-door.invalid_hinge"
+  ]
+ },
+ "sizedMaterials": {
+  "pieces": [
+   {
+    "id": "testbed-4-bottom-node",
+    "role": "piece.bottom-panel",
+    "piece": {
+     "uid": "testbed-4-bottom",
+     "width": 750,
+     "height": 450,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 12.5,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-left-node",
+    "role": "piece.left-side",
+    "piece": {
+     "uid": "testbed-4-left",
+     "width": 1200,
+     "height": 450,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": -387.5,
+      "y": 600,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      -0.707,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-right-node",
+    "role": "piece.right-side",
+    "piece": {
+     "uid": "testbed-4-right",
+     "width": 1200,
+     "height": 450,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 387.5,
+      "y": 600,
+      "z": 0
+     },
+     "rotation": [
+      0,
+      0,
+      0.707,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-back-top-node",
+    "role": "piece.back-stretcher-top",
+    "piece": {
+     "uid": "testbed-4-back-top",
+     "width": 750,
+     "height": 100,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 1150,
+      "z": -212.5
+     },
+     "rotation": [
+      0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-back-bottom-node",
+    "role": "piece.back-stretcher-bottom",
+    "piece": {
+     "uid": "testbed-4-back-bottom",
+     "width": 750,
+     "height": 100,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 75,
+      "z": -212.5
+     },
+     "rotation": [
+      0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-divider-divider-0-node",
+    "role": "piece.divider",
+    "piece": {
+     "uid": "testbed-4-divider-divider-0",
+     "width": 750,
+     "height": 425,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 175,
+      "z": 12.5
+     },
+     "rotation": [
+      0,
+      0,
+      1,
+      0
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-drawers-drawer-0-front-node",
+    "role": "piece.drawer-front",
+    "piece": {
+     "uid": "testbed-4-drawers-drawer-0-front",
+     "width": 796,
+     "height": 171,
+     "thickness": 18,
+     "grain": 2
+    },
+    "material": "walnut-18",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 4,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     },
+     {
+      "edge": 5,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 87.5,
+      "z": 235
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-drawers-drawer-0-left-node",
+    "role": "piece.drawer-left-side",
+    "piece": {
+     "uid": "testbed-4-drawers-drawer-0-left",
+     "width": 405,
+     "height": 133.5,
+     "thickness": 25,
+     "grain": 2
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": -361.5,
+      "y": 93.75,
+      "z": 23.5
+     },
+     "rotation": [
+      -0.5,
+      -0.5,
+      -0.5,
+      0.5
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-drawers-drawer-0-right-node",
+    "role": "piece.drawer-right-side",
+    "piece": {
+     "uid": "testbed-4-drawers-drawer-0-right",
+     "width": 405,
+     "height": 133.5,
+     "thickness": 25,
+     "grain": 2
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 361.5,
+      "y": 93.75,
+      "z": 23.5
+     },
+     "rotation": [
+      -0.5,
+      0.5,
+      0.5,
+      0.5
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-drawers-drawer-0-bottom-node",
+    "role": "piece.drawer-bottom",
+    "piece": {
+     "uid": "testbed-4-drawers-drawer-0-bottom",
+     "width": 712,
+     "height": 387,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 52,
+      "z": 32.5
+     },
+     "rotation": [
+      0,
+      0,
+      0,
+      1
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-drawers-drawer-0-back-node",
+    "role": "piece.drawer-back",
+    "piece": {
+     "uid": "testbed-4-drawers-drawer-0-back",
+     "width": 698,
+     "height": 133.5,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 93.75,
+      "z": -166.5
+     },
+     "rotation": [
+      0,
+      0.707,
+      0.707,
+      0
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-door-door-left-side-node",
+    "role": "piece.door-panel-left",
+    "piece": {
+     "uid": "testbed-4-door-door-left-side",
+     "thickness": 18,
+     "grain": 2,
+     "width": 787,
+     "height": 1023
+    },
+    "material": "walnut-18",
+    "edges": [
+     {
+      "edge": 4,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       }
+      }
+     },
+     {
+      "edge": 5,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       }
+      }
+     },
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       }
+      }
+     },
+     {
+      "edge": 3,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       }
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 4.5,
+      "y": 688.5,
+      "z": 236
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   },
+   {
+    "id": "testbed-4-door-topStile-top-rail-node",
+    "role": "piece.top-rail",
+    "piece": {
+     "uid": "testbed-4-door-topStile-top-rail",
+     "width": 750,
+     "height": 100,
+     "thickness": 25,
+     "grain": 1
+    },
+    "material": "oak-25",
+    "edges": [
+     {
+      "edge": 2,
+      "treatment": {
+       "type": "edgeband",
+       "material": {
+        "id": "white-edge",
+        "name": "White ABS 0.5mm",
+        "category": "edgeband",
+        "tags": [
+         "abs",
+         "white",
+         "budget"
+        ],
+        "thickness": 0.5,
+        "appearance": {
+         "type": "color-texture",
+         "color": "#FFFFFF"
+        },
+        "tier": "economy",
+        "aiContext": "Fita ABS branca lisa, 0,5 mm."
+       },
+       "profile": "flat",
+       "inset": 0
+      }
+     }
+    ],
+    "transform": {
+     "position": {
+      "x": 0,
+      "y": 1150,
+      "z": 212.5
+     },
+     "rotation": [
+      -0.707,
+      0,
+      0,
+      0.707
+     ]
+    }
+   }
+  ],
+  "diagnostics": [
+   "error:pivot-door.invalid_hinge"
+  ]
+ }
+}

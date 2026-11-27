@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Drawer and Door Cabinet">
+  <title>Drawer and Door Cabinet</title>
+  <defs>
+    <linearGradient id="smo-door" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="smo-drawer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3F4F6"/>
+      <stop offset="100%" stop-color="#E5E7EB"/>
+    </linearGradient>
+  </defs>
+  <!-- Carcass -->
+  <rect x="20" y="14" width="88" height="100" rx="2" fill="#F9FAFB" stroke="#6B7280" stroke-width="1.5"/>
+  <!-- Top mask strip -->
+  <rect x="22" y="16" width="84" height="8" fill="#D1D5DB" stroke="#6B7280" stroke-width="1"/>
+  <!-- Center divider -->
+  <rect x="61" y="24" width="6" height="88" fill="#E5E7EB" stroke="#6B7280" stroke-width="1"/>
+  <!-- Left column: drawer stack -->
+  <rect x="24" y="28" width="35" height="26" rx="1" fill="url(#smo-drawer)" stroke="#6B7280" stroke-width="1.2"/>
+  <rect x="33" y="39" width="17" height="4" rx="2" fill="#374151"/>
+  <rect x="24" y="57" width="35" height="26" rx="1" fill="url(#smo-drawer)" stroke="#6B7280" stroke-width="1.2"/>
+  <rect x="33" y="68" width="17" height="4" rx="2" fill="#374151"/>
+  <rect x="24" y="86" width="35" height="26" rx="1" fill="url(#smo-drawer)" stroke="#6B7280" stroke-width="1.2"/>
+  <rect x="33" y="97" width="17" height="4" rx="2" fill="#374151"/>
+  <!-- Right column: pivot door -->
+  <rect x="69" y="28" width="35" height="84" rx="1" fill="url(#smo-door)" stroke="#4F46E5" stroke-width="1.5"/>
+  <rect x="75" y="36" width="23" height="68" rx="1" fill="none" stroke="#A5B4FC" stroke-width="0.75" opacity="0.5"/>
+  <circle cx="102" cy="40" r="2.5" fill="#4B5563" stroke="#374151" stroke-width="0.8"/>
+  <circle cx="102" cy="100" r="2.5" fill="#4B5563" stroke="#374151" stroke-width="0.8"/>
+  <rect x="71" y="63" width="4" height="14" rx="2" fill="#374151"/>
+</svg>
