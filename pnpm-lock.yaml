@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       '@skymobdev/cad-mock':
-        specifier: ^0.1.73
-        version: 0.1.73(three@0.187.0)
+        specifier: ^0.1.74
+        version: 0.1.74(three@0.187.0)
       '@skymobdev/sdk':
-        specifier: ^0.2.0
-        version: 0.2.0(@skymobdev/cad-mock@0.1.73(three@0.187.0))(three@0.187.0)
+        specifier: ^0.2.1
+        version: 0.2.1(@skymobdev/cad-mock@0.1.74(three@0.187.0))(three@0.187.0)
       '@skymobdev/standard-catalog-types':
-        specifier: ^0.1.0
-        version: 0.1.0(@skymobdev/sdk@0.2.0(@skymobdev/cad-mock@0.1.73(three@0.187.0))(three@0.187.0))
+        specifier: ^0.1.1
+        version: 0.1.1(@skymobdev/sdk@0.2.1(@skymobdev/cad-mock@0.1.74(three@0.187.0))(three@0.187.0))
       '@types/three':
         specifier: ^0.187.0
         version: 0.187.0
@@ -170,22 +170,22 @@ packages:
   '@rolldown/pluginutils@1.1.1':
     resolution: {integrity: sha512-glFIJDvLNDtJhT9qrMFWLPbvS+skxgt4L0K8Ei2YtnhPysAJnsI7nyxSJxKj4ADeKX0OLjC4ntRkwpLOoS3rwA==}
 
-  '@skymobdev/cad-mock@0.1.73':
-    resolution: {integrity: sha512-w2WXpHdqvFVJUGkoFvkLn8ohJzqnF8aGlEM4cnOofBmGcUXxe53gJgPLQ18DYSnpCJkfiHwty9FBCXNiLrB9vA==, tarball: https://github.com/SkyMobDev/npm/releases/download/pool/skymobdev-cad-mock-0.1.73.tgz}
+  '@skymobdev/cad-mock@0.1.74':
+    resolution: {integrity: sha512-IJCRy8MY7PUEE8IuCog/6nTBqHrhhe+tc5UthPze3/iGbem/1u7mRMtY5LNu/D32KdeJtHj780o6t+EsvJsQ0Q==, tarball: https://github.com/SkyMobDev/npm/releases/download/pool/skymobdev-cad-mock-0.1.74.tgz}
     peerDependencies:
       three: ^0.187.0
 
-  '@skymobdev/sdk@0.2.0':
-    resolution: {integrity: sha512-8v5ShalkXG5kdXokIIR4z6wdiOG0xca9Sst05rxatPJkOvNOd9cpw02E5bG4ZFdZoSALvpWwZwwIrEdbyApOxA==, tarball: https://github.com/SkyMobDev/npm/releases/download/pool/skymobdev-sdk-0.2.0.tgz}
+  '@skymobdev/sdk@0.2.1':
+    resolution: {integrity: sha512-U67rAuf3H6PSv8JeQyhX7gqoTrFNKPR48jlRj/0fSLp8/NOFVCknj8FdpMlPqlr+VWTYKZQe3gBz4yNEBhNxbQ==, tarball: https://github.com/SkyMobDev/npm/releases/download/pool/skymobdev-sdk-0.2.1.tgz}
     hasBin: true
     peerDependencies:
       '@skymobdev/cad-mock': '>=0.1.3'
       three: '>=0.187.0'
 
-  '@skymobdev/standard-catalog-types@0.1.0':
-    resolution: {integrity: sha512-GI2ds1GQNeUEgzaNAm8QRqlfKblzqocck6i20IzYxdPghsdY06WAWDmcbmjfNCbX0ePqGgUzfEiGQv2KSo9fYQ==, tarball: https://github.com/SkyMobDev/npm/releases/download/pool/skymobdev-standard-catalog-types-0.1.0.tgz}
+  '@skymobdev/standard-catalog-types@0.1.1':
+    resolution: {integrity: sha512-qLwkdlJ96li/pq5opP59+5/z3HLg4T/cKUk4obmZSV0+TJi7jc44e4aX9DBQuEb23fTPTtHa87ZsSMGX8sRlMQ==, tarball: https://github.com/SkyMobDev/npm/releases/download/pool/skymobdev-standard-catalog-types-0.1.1.tgz}
     peerDependencies:
-      '@skymobdev/sdk': ^0.2.0
+      '@skymobdev/sdk': ^0.2.1
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
@@ -703,13 +703,13 @@ snapshots:
 
   '@rolldown/pluginutils@1.1.1': {}
 
-  '@skymobdev/cad-mock@0.1.73(three@0.187.0)':
+  '@skymobdev/cad-mock@0.1.74(three@0.187.0)':
     dependencies:
       three: 0.187.0
 
-  '@skymobdev/sdk@0.2.0(@skymobdev/cad-mock@0.1.73(three@0.187.0))(three@0.187.0)':
+  '@skymobdev/sdk@0.2.1(@skymobdev/cad-mock@0.1.74(three@0.187.0))(three@0.187.0)':
     dependencies:
-      '@skymobdev/cad-mock': 0.1.73(three@0.187.0)
+      '@skymobdev/cad-mock': 0.1.74(three@0.187.0)
       fast-check: 4.10.2
       ses: 2.3.0
       svgo: 4.1.0
@@ -730,9 +730,9 @@ snapshots:
       - tsx
       - yaml
 
-  '@skymobdev/standard-catalog-types@0.1.0(@skymobdev/sdk@0.2.0(@skymobdev/cad-mock@0.1.73(three@0.187.0))(three@0.187.0))':
+  '@skymobdev/standard-catalog-types@0.1.1(@skymobdev/sdk@0.2.1(@skymobdev/cad-mock@0.1.74(three@0.187.0))(three@0.187.0))':
     dependencies:
-      '@skymobdev/sdk': 0.2.0(@skymobdev/cad-mock@0.1.73(three@0.187.0))(three@0.187.0)
+      '@skymobdev/sdk': 0.2.1(@skymobdev/cad-mock@0.1.74(three@0.187.0))(three@0.187.0)
 
   '@standard-schema/spec@1.1.0': {}
 
